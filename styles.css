@@ -156,7 +156,7 @@ About Me
 .about-me__picture {
   width: 100%;
   transform: scale(1.1);
-  padding-bottom: 296px;
+  padding-top: 4px;
 }
 
 .about-me__info--para {
@@ -362,7 +362,7 @@ footer{
 
  
 .footer__social--link{
-margin: 0 32px;
+margin: 0 10px;
   text-decoration: none;
   color: white;
 
@@ -413,15 +413,18 @@ h1{
 .nav__link:not(:last-child){
   display: none;
 }
+.project__description--links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .project__description--para{
   display: none;
 }
-.project__description--links{
-  display: flex;
-  justify-content: center;
-}
+
 .project__description--title{
   line-height: 1;
+  text-align: center;
 }
 .project__description--sub-title{
   text-align: center;
